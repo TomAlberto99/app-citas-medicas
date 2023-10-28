@@ -1,0 +1,43 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "nombre": "Tomas Alberto",
+        "email": "tomasalberto.alberto@gmail.com",
+        "password": "tom123456"
+      },
+      {
+        "id": 2,
+        "nombre": "María García",
+        "email": "maria.garcia@example.com",
+        "password": "miContraseña123"
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos Rodríguez",
+        "email": "carlos.rodriguez@example.com",
+        "password": "secreto1234"
+      },
+      {
+        "id": 4,
+        "nombre": "Luisa Martínez",
+        "email": "luisa.martinez@example.com",
+        "password": "contraseñaSegura567"
+      }
+    ],
+    "lista": [
+        {
+          "id": 1,
+          "nombrePax": "Tomas Alberto",
+          "fechaCita": "28/10/2023",
+          "horaCita": "04:20",
+          "sintomas": "Dolor de estomago, fiebre 38g, muchas tos" 
+        }
+      ]
+  }
+  
+
+
+
+
+ 

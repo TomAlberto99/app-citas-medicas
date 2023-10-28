@@ -1,0 +1,21 @@
+<table class="my-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre del Paciente</th>
+        <th>Fecha de Cita</th>
+        <th>Hora de Cita</th>
+        <th>Síntomas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let turno of turnos">
+        <td>{{ turno.id }}</td>
+        <td>{{ turno.nombrePax }}</td>
+        <td>{{ turno.fechaCita }}</td>
+        <td>{{ turno.horaCita }}</td>
+        <td>{{ turno.sintomas }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

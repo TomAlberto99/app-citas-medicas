@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+/* Estilo global para el margen izquierdo del contenido principal */
+.content {
+  margin-left: 260px; /* Ajusta el valor según el ancho de tu sidebar */
+}
